@@ -96,8 +96,3 @@ As a result, leadership gained a clear view of margin erosion drivers and implem
 Explore the interactive Power BI report here:
 [Open Supermarket Profitability Report](https://app.powerbi.com/groups/me/reports/cdb42391-d649-4120-a5c5-b7fa184da6a1/ReportSection)
 
-For full metadata, refer to **Data Dictionary.xlsx** in this repository.
-
----
-
-*Document prepared for a non‑technical academic audience.*
