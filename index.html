@@ -2,25 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Ensure proper scaling on mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Power BI Project</title>
+  <title>My Power BI Portal</title>
+  <style>
+    nav { margin-bottom: 1.5em; }
+    nav a { margin-right: 1em; text-decoration: none; color: #0366d6; }
+  </style>
 </head>
 <body>
-  <h1>Power BI Report Embedded</h1>
+  <h1>Power BI Reports Portal</h1>
 
-  <!--
-    Replace the src URL below with your own “Publish to web” link.
-    The title attribute helps with accessibility.
-  -->
-  <iframe
-    title="MSC USA Project"
-    width="100%"
-    height="800"
-    src="https://app.powerbi.com/view?r=eyJrIjoiN2ZhMmVlZDItN2UyMi00OGEyLTlmY2UtOWY1MDk1NDMyZTk5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
-    frameborder="0"
-    allowFullScreen>
-  </iframe>
+  <!-- Navegación a cada informe -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="project1.html">Report 1</a>
+    <a href="project2.html">Report 2</a>
+    <!-- Agrega más enlaces aquí cuando hagas más páginas -->
+  </nav>
+
+  <section>
+    <h2>Welcome</h2>
+    <p>Select a report from the menu above to view it.</p>
+  </section>
 </body>
 </html>
-
